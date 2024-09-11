@@ -7,6 +7,12 @@
 2. Install dependencies  
 `pip install -r requirements.txt`
 
+---  
+> **Note for developers:**  
+> Whenever a new dependency is added to the project, "requirements.txt" must be updated to maintain consistency:  
+> 
+> `pip freeze > requirements.txt`
+
 ## Run Project
 1. Activate virtual environment  
 `source venv/bin/activate`
