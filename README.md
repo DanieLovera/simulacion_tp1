@@ -14,7 +14,7 @@
 2. Run Jupyter Notebook  
 `jupyter notebook`
 
-## Close Project
+## Stop Project
 1. Stop Jupyter Notebook  
 `Ctrl+c`
 
