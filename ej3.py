@@ -98,7 +98,7 @@ particles = 1000
 grid_size = 100
 surface_radius = 10
 stick_probability = 0.3
-steps = 1000
+steps = 100
 
 simulator = BrownianSimulator2D(steps, particles, grid_size, surface_radius, stick_probability)
 
@@ -130,7 +130,7 @@ def update(frame):
     return particles_plot, surface_plot
 
 
-ani = FuncAnimation(fig, update, frames=steps, init_func=init, blit=True, interval=50)
+ani = FuncAnimation(fig, update, frames=steps, init_func=init, blit=True, interval=50, repeat=False)
 
 
 plt.show()
